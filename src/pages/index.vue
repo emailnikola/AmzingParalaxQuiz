@@ -2,7 +2,7 @@
 import { getQuizQuestions } from '@/services/questionsService'
 import { useQuizStore } from '@/stores/app'
 import { scrollNext } from '@/composables'
-import type { QuestionOption, QuizQuestion, QuizAnswer } from '@/types'
+import type { QuestionOption, QuizQuestion } from '@/types'
 
 const router = useRouter()
 const store = useQuizStore()
@@ -61,10 +61,10 @@ const handleJumpToQuestionClick = (questionIndex: number): void => {
   scrollNext(questionIndex)
 }
 
-onMounted(() => {
+onMounted(async () => {
   handleInitialScrollPosition()
   setEventListeners()
-  populateQuizQuestions()
+  await populateQuizQuestions()
 })
 
 </script>
