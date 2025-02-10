@@ -1,6 +1,7 @@
-# Vuetify (Default)
+# AmzingParalaxQuiz
 
-This is the official scaffolding tool for Vuetify, designed to give you a head start in building your new Vuetify application. It sets up a base template with all the necessary configurations and standard directory structure.
+Demo project setup with:
+Vue SSR Vuetify Pinia TypeScript
 
 ## Project Setup
 
@@ -40,4 +41,3 @@ npm run build
 
 ## 📑 License
 [MIT](http://opensource.org/licenses/MIT)
-# AmzingParalaxQuiz
