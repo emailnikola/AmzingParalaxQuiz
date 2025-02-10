@@ -5,8 +5,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "node server",
-    "vite": "vite",
-    "coverage": "vitest run --coverage",
+    "test": "vitest run --coverage",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
