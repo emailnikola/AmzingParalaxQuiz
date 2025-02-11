@@ -75,7 +75,7 @@ describe('QuizQuestion', () => {
     const positionClass = wrapper.classes().find((className) =>
       className.startsWith('apq-background-image')
     )
-    expect(positionClass).toBe('apq-background-image_1')
+    expect(positionClass).toBe('apq-background-image_2')
   })
 
   it('should have the correct style for the clip-path based on scrollFromTop', async () => {
